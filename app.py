@@ -323,7 +323,7 @@ def insertf_data(feed_name,feed_email,feed_score,comments,Timestamp):
 
 
 st.set_page_config(
-   page_title="AI Resume Analyzer - rupam",
+   page_title="AI Resume Analyzer - swadhin",
    page_icon='./Logo/recommend.png',
    layout="wide",
    initial_sidebar_state="expanded"
@@ -353,7 +353,7 @@ def run():
     
     st.title("🎯 AI Resume Analyzer")
     st.markdown("**Analyze resumes using Machine Learning and Natural Language Processing**")
-    st.markdown("*by rupam*")
+    st.markdown("*by swadhin*")
     st.markdown("---")
     
     st.sidebar.header("Navigation")
@@ -361,7 +361,7 @@ def run():
     choice = st.sidebar.selectbox("Choose:", activities)
     
     st.sidebar.markdown("---")
-    st.sidebar.markdown("Built by [Rupam ](https://github.com/)")
+    st.sidebar.markdown("Built by [swadhin ](https://github.com/)")
 
     ###### Creating Database and Table ######
 
@@ -657,7 +657,7 @@ def run():
         st.header("About AI Resume Analyzer")
         st.write("This tool uses NLP and Machine Learning to analyze resumes.")
         st.markdown("---")
-        st.write("**Developer:** Rupam")
+        st.write("**Developer:** swadhin")
 
     else:
         st.success('Welcome to Admin Side')
