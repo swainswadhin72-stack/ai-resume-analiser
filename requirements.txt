@@ -1,0 +1,16 @@
+streamlit
+pandas
+pymysql
+plotly
+geopy
+geocoder
+pyresparser
+pdfminer3
+streamlit-tags
+Pillow
+nltk
+sentence-transformers
+torch
+scikit-learn
+python-dotenv
+requests
